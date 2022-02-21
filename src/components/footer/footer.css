@@ -1,0 +1,25 @@
+.selectF {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.img6 {
+  width: 100px;
+}
+.img6G {
+  text-align: center;
+  width: 100px;
+}
+.selcF1 {
+  margin: 0 auto;
+}
+.bottom-img {
+  margin: 0 auto;
+}
+hr {
+  width: 1200px;
+  size: 3px;
+
+  margin-top: 50px;
+}
