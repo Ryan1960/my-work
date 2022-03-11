@@ -6,6 +6,7 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import { Close } from "@material-ui/icons";
+import AwsImage from "./awsImage";
 export default function PictureDialog({ selectedImage, handleClose }) {
   return (
     //it will be open when there is a selected image
@@ -22,7 +23,7 @@ export default function PictureDialog({ selectedImage, handleClose }) {
         </Button>
       </DialogTitle>
       <DialogContent>
-        <img src={selectedImage} className="chp-head-img" />
+        <AwsImage src={selectedImage} className="chp-head-img" />
       </DialogContent>
     </Dialog>
   );
