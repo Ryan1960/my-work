@@ -1,0 +1,7 @@
+.top {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  /* background-color: #23dc33; */
+  align-items: center;
+}

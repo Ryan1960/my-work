@@ -1,0 +1,100 @@
+.width-95 {
+  width: 95%;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  margin: 20px 0;
+}
+.head {
+  flex: 1;
+}
+.text {
+  line-height: 2;
+  font-size: 20px;
+}
+
+.text2 {
+  margin-top: 35px;
+  font-size: 20px;
+  line-height: 2.6;
+  text-align: center;
+}
+
+.img-left {
+  height: 700px;
+  display: flex;
+}
+.img-left-left {
+  width: 700px;
+  position: relative;
+}
+.img-left-left-img1 {
+  width: 200px;
+  height: 280px;
+  margin-left: 300px;
+  position: absolute;
+}
+.img-left-left-img2 {
+  z-index: 0;
+  width: 260px;
+  height: 360px;
+  margin-left: 110px;
+  margin-top: 150px;
+  position: absolute;
+}
+.img-left-left-img3 {
+  z-index: 1;
+  width: 200px;
+  height: 280px;
+  margin-top: 340px;
+  margin-left: 330px;
+  position: absolute;
+}
+.img-left-left-img4 {
+  width: 60px;
+  height: 60px;
+  margin-left: 630px;
+  margin-top: 10px;
+  position: absolute;
+}
+.img-left-left-img5 {
+  width: 60px;
+  height: 60px;
+  margin-top: 570px;
+  margin-left: 90px;
+  position: absolute;
+}
+
+.img-right-title {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 0;
+}
+
+li {
+  color: rgb(0, 184, 0);
+}
+.img-right-text-color {
+  color: black;
+}
+.pig-pig {
+  width: 80%;
+  height: 94%;
+  display: block;
+  margin: 0px auto;
+}
+.img-img-text-title {
+  text-align: center;
+  font-size: 35px;
+}
+.img-img-text {
+  height: 80%;
+  width: 400px;
+  line-height: 1.6;
+}
+.img-img-text-text {
+  margin: 50px 0px;
+  font-size: 20px;
+}

@@ -3,35 +3,34 @@
   padding: 0;
 }
 
-.title-1 {
-  height: 190px;
-  font-size: 40px;
+.title {
   text-align: center;
-  line-height: 300px;
-  font-weight: bold;
+  font-size: 35px;
+  margin: 20px 0;
+}
+.text2 {
+  margin-top: 35px;
+  font-size: 20px;
+  line-height: 2.6;
+  text-align: center;
 }
 
-.title-text-1 {
-  height: 240px;
-  text-align: center;
-  font-size: 20px;
-  line-height: 35px;
-  width: 50%;
-  margin: 20px auto;
-}
 .img-text-1-text-2 {
   width: 300px;
+}
+.two-pics {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
 }
 .img-text-1-text-title {
   font-size: 20px;
   font-weight: bold;
   padding-top: 10px;
-  text-align: left;
 }
 .img-text-1-text-1 {
   font-size: 18px;
   padding-top: 15px;
-  text-align: left;
 }
 /* .img-text-1-text-2{
   width: 370px;
@@ -46,6 +45,7 @@
   padding-top: 30px;
   height: 50px;
 }
+
 .oneG2 {
   text-align: left;
   height: 300px;
@@ -55,17 +55,17 @@
   margin-right: 30px;
   float: right;
 }
-.one {
+.caw {
   display: flex;
-  padding: 0;
-  margin-top: -120px;
+  justify-content: center;
+  height: 400px !important;
 }
-.two {
+.bee {
   display: flex;
   padding: 0;
   margin-top: -400px;
 }
-.three {
+.goat {
   display: flex;
   padding: 0;
   margin-top: -400px;
@@ -78,9 +78,34 @@
 
 .oneG {
   flex: 1;
-  height: 400px;
+  height: 300px;
 }
-.one1 {
+.selectE2 {
+  text-align: center;
+  background-image: url("https://nybamboo.s3.us-west-1.amazonaws.com/img/contactForm.png");
+  background-position: center;
+  color: white;
+  margin: 50px auto;
   display: flex;
-  padding: 0;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.go-text-2 {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.go-text-3 {
+  margin: 30px auto;
+  text-align: center;
+  border-radius: 15px;
+  height: 40px;
+  width: 100px;
+  color: black;
+  background-color: white;
+  line-height: 40px;
 }

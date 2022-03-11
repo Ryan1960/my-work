@@ -1,15 +1,9 @@
-.selectF {
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
 .img6 {
-  width: 100px;
+  width: 120px;
 }
 .img6G {
   text-align: center;
-  width: 100px;
+  width: 120px;
 }
 .selcF1 {
   margin: 0 auto;

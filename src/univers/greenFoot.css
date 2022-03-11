@@ -1,29 +1,20 @@
-.title {
-  text-align: center;
-  font-size: 35px;
-  margin: 20px 0;
-}
-
-.text2 {
-  margin-top: 35px;
-  font-size: 20px;
-  line-height: 2.6;
-  text-align: center;
-}
-
 .selectE2 {
   text-align: center;
-  background-image: url("https://nybamboo.s3.us-west-1.amazonaws.com/img/contactForm.png");
+  background-image: url(/public/img/contactForm.png);
   background-position: center;
   color: white;
-  margin: 50px auto;
-  display: flex;
+  /* margin: 50px auto; */
+  /* display: flex; */
   flex-direction: column;
   justify-content: space-evenly;
   width: 80%;
   border-radius: 5px;
 }
-
+.go-text-1 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 50px;
+}
 .go-text-2 {
   color: white;
   text-align: center;
@@ -34,13 +25,9 @@
   margin: 30px auto;
   text-align: center;
   border-radius: 15px;
-  height: 40px;
+  height: 30px;
   width: 100px;
   color: black;
   background-color: white;
-  line-height: 40px;
-}
-.img-text-1-text-title,
-.img-text-1-text-1 {
-  text-align: center;
+  line-height: 30px;
 }

@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin: 10px 0;
+}
+.text {
+  font-size: 16px;
+}
+.width-70 {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,8 +1,7 @@
-.job {
+/* .job {
   margin: 0;
   padding: 0;
-  height: 5800px;
-}
+} */
 
 .qz-head {
   font-size: 54px;
@@ -10,18 +9,20 @@
   text-align: center;
   margin-top: 100px;
 }
+.pig {
+  text-align: center;
+  position: relative;
+  height: 90vh;
+}
 .qz-head2,
 .qz-head3 {
+  margin-top: 15px;
   font-size: 29px;
-  margin: 25px 0px;
-  color: gray;
 }
-.one {
-  position: relative;
-  text-align: center;
-}
+
 .qz-head-img2 {
   position: absolute;
+  display: block;
   top: 15px;
   right: 35px;
 }
@@ -54,12 +55,13 @@
 .one {
   height: 100vh;
 }
-.two {
+.ship {
+  margin-top: 200px;
   height: 100vh;
   text-align: center;
 }
-.three {
-  height: 100vh;
+.classCategory {
+  height: 80vh;
 }
 .qz-body-1 {
   margin-top: 100px;
@@ -69,47 +71,19 @@
 .qz-body-img1 {
   width: 200px;
   height: 200px;
-}
-.qz-body-img2 {
-  width: 200px;
-  height: 200px;
-}
-.qz-body-img3 {
-  width: 200px;
-  height: 200px;
-}
-.qz-body-img4 {
-  width: 200px;
-  height: 200px;
-}
-.qz-body-2-img {
-  width: 130px;
-  height: 130px;
-}
-.qz-body-2 {
-  margin-top: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  text-align: center;
-  font-size: 25px;
-}
-.picke1 {
-  width: 260px;
-  margin: 15px;
+  display: block;
+  margin: 0 auto;
 }
 
 .title_2015 {
   text-align: center;
   color: #a708f7;
-
+  font-size: 18px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .pics {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  max-width: 100%;
 }
 .hp-head {
   width: 180px;
@@ -187,20 +161,16 @@ li {
 .secD {
   background: " #f7f9fb";
 }
-.four {
+.ourService {
   background-color: " #f7f9fb";
 }
-.secDP {
-  margin: 0px auto;
-  display: block;
-  background: " #f7f9fb";
-}
+
 .contactForm {
   width: 100%;
 }
 .selectE2 {
   text-align: center;
-  background-image: url(./img/contactForm.png);
+  background-image: url("https://nybamboo.s3.us-west-1.amazonaws.com/img/contactForm.png");
   background-position: center;
   color: white;
   margin: 50px auto;
@@ -209,6 +179,10 @@ li {
   justify-content: space-evenly;
   width: 80%;
   border-radius: 5px;
+}
+.selectE {
+  margin-top: -950px;
+  height: 350px;
 }
 .go-text-1 {
   text-align: center;
@@ -240,8 +214,49 @@ li {
   color: #8a8c8e;
 }
 .dadianP {
-  float: left;
+  display: block;
   width: 60px;
   height: 60px;
-  margin-right: 10px;
+  margin: 0 auto;
+}
+.contact {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.logo-1 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  text-align: center;
+}
+.qz-body-2 {
+  font-size: 25px;
+}
+
+.qz-body-2-img {
+  width: 130px;
+  max-width: 100%;
+}
+.title {
+  text-align: center;
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.text2 {
+  margin-top: 35px;
+  font-size: 20px;
+  line-height: 2.6;
+  text-align: center;
 }
